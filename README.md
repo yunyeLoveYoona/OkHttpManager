@@ -1,0 +1,5 @@
+# OkHttpManager
+对OKHttp进行封装，提供了http访问以及网络图片下载的线程池，提供了JsonRequest和图片内存缓存和硬盘缓存，图片下载时会根据ImageView大小进行压缩
+
+
+由于谷歌从Android6.0开始删除了HttpClient的API,所以把之前写的http请求框架以及图片缓存框架进行修改，把OKHttp封装进去了
